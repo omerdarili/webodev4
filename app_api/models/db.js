@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/mekanbul';
+var dbURI = 'mongodb+srv://dariliomer44:,123456,@cluster0.l7x1nsa.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbURI);
 mongoose.connection.on("connceted", function (){
     // MongoDB üzerinden default olarak ayarlı connected olarak  kalmalı hep
